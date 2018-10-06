@@ -4,13 +4,22 @@
 
 body {
   font-size: 10px;
-  background-color: #ffffff;
-  width:30%;
-  margin:0 auto;
+  background-color: gray;
   font-family: open sans,sans-serif;
 }
 
-.navigation {
+.container {
+  width:375px;
+  margin:0 auto;
+  background-color: #ffffff;
+  height:900px;
+}
+
+.statusbar {
+  height:44px;
+}
+
+nav {
   background-color: #3b88c4;
   text-align: center;
   padding-top: 3%;
@@ -48,7 +57,7 @@ h1 {
 .fa-plus {
   float:right;
   font-size: 1.6em;
-  padding-right: 2%;
+
 }
 
 h2 {
@@ -58,37 +67,34 @@ h2 {
   font-weight: bold;
 }
 
-.direction {
-  padding-top: 5%;
-  padding-bottom: 3%;
-  padding-left: 2%;
+.row {
+  padding:0 1.6em 1.6em 1.6em;
+}
+
+.bus {
+  float:left;
+  width:80%;
+}
+
+.time {
+  float:left;
+  padding-right: 2%;
+  font-size: 1.3em;
+  padding-bottom: 6%;
+}
+
+.icon {
+  float:right;
+  font-size: 1.6em;
 }
 
 .line {
+  font-size: 1.3em;
   color: #3b88c4;
-  padding-bottom: 1.5%;
-  font-size: 1.3em;
-  padding-left: 2%;
+  padding-bottom: 2%;
+  font-weight: bold;
 }
 
-.bus-route {
-  display:block;
-}
-.frequency {
-  padding-bottom: 3%;
-  font-size: 1.3em;
-  padding-left:2%;
-}
-
-
-.fa-angle-right {
-
-  font-size: 2em;
-  float:right;
- padding-right: 2%;
-}
-
-.schedule {
-  display: inline-block;
-  width:80%;
+.direction {
+  padding: 1.6em;
 }
